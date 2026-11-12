@@ -1,0 +1,16 @@
+# Simple movie knowledge base
+
+One Python file, one local SQLite database (created automatically), and no extra packages.
+
+```powershell
+cd "C:\Users\Derrick\Documents\New project\movie_review_bot"
+$env:MOVIE_KB_USER_AGENT = "MovieReviewBot/0.1 (your-email@example.com)"
+python movie_kb.py import "The Matrix"
+python movie_kb.py show "The Matrix"
+python movie_kb.py search "Neo"
+python movie_kb.py add "The Matrix"
+```
+
+`import` uses Wikipedia's API for factual context; it does not scrape review sites. `add` prompts for a review, its URL, license, and permission basis. Only add text you are allowed to store and use. The database records this information but cannot determine whether the permission is valid. Follow Wikipedia's applicable attribution and licensing terms when reusing or redistributing its text.
+
+The SQLite database is `movie_kb.sqlite3` beside the script. Set a descriptive User-Agent with contact information and follow the [MediaWiki API etiquette](https://www.mediawiki.org/wiki/API:Etiquette).
