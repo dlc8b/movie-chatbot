@@ -1,0 +1,699 @@
+[
+  {
+    "title": "Inception",
+    "year": "2010",
+    "omdb": {
+      "Title": "Inception",
+      "Year": "2010",
+      "Rated": "PG-13",
+      "Released": "16 Jul 2010",
+      "Runtime": "148 min",
+      "Genre": "Adventure, Sci-Fi, Thriller",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster.",
+      "Language": "English, Japanese, French",
+      "Country": "United Kingdom, United States",
+      "Awards": "Won 4 Oscars. 160 wins & 220 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "86%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,877,173",
+      "imdbID": "tt1375666",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$292,587,330",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt1375666/",
+    "wikipedia": {
+      "text": "Inception is a 2010   science fiction heist film written and directed by Christopher Nolan, who also produced it with his wife Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating his targets' subconscious. He is offered a chance to have his criminal history erased as payment for implanting an idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Cillian Murphy, Tom Berenger, Dileep Rao, and Michael Caine.\nAfter the completion of Insomnia in 2002, Nolan presented to Warner Bros. a written 80-page treatment for a horror film envisioning \"dream stealers\", based on lucid dreaming. Deciding he needed more experience before tackling a production of this magnitude and complexity, Nolan shelved the project and instead worked on Batman Begins (2005), The Prestige (2006), and The Dark Knight (2008). The treatment was revised over six months and was purchased by Warner Bros. in February 2009. Inception was filmed in six countries, beginning in Tokyo on June 19 and ending in Canada on November 22. Its official budget was US$160 million, split between Warner Bros. and Legendary. Nolan's reputation and success with The Dark Knight helped secure the film's $100 million in advertising expenditure.\nInception's premiere was held in London on July 8, 2010; it was released in both conventional and IMAX theaters beginning on July 16, 2010. Inception grossed $839 million worldwide, becoming the fourth-highest-grossing film of 2010. Considered one of the best films of the 2010s, Inception, among its numerous accolades, won four Oscars (Best Cinematography, Best Sound Editing, Best Sound Mixing, Best Visual Effects) and was nominated for four more (Best Picture, Best Original Screenplay, Best Art Direction, Best Original Score) at the 83rd Academy Awards. In 2025, the Library of Congress selected Inception for preservation in the United States National Film Registry for being \"culturally, historically or aesthetically significant\".\n\n",
+      "url": "https://en.wikipedia.org/?curid=23270459"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "When I first saw the trailer for this film, I knew that this would attract a lot of attention. Of course having Leonardo in the lead role helped a lot. \r\n\r\n\r\nFrom the trailer, I already know some things. Dreams. All about dreams. But what about dreams? Who are the other people? At first, I didn't really understand what was going on. It was all very confusing to me. But as the movie progresses, I start to understand it and I wanted to watch some more and know more what will happen in the end. The"
+        },
+        {
+          "text": "Whether you watch Inception as a heist movie, a redemption story, or a sci-fi action picture, Christopher Nolan's tour de force of dreams will absolutely work its magic over you. The fact that the film works on so many levels (literally) is an attest not only to the visual queues that make it easy for the audience to follow but to how much in control of all the intricacies its filmmaker had to be."
+        },
+        {
+          "text": "Is there anyone on earth who doesn't like Christopher Nolan\u2019s films? Inception is one of his masterpieces. It\u2019s a science fiction film released in 2010 and written by undoubtedly one of the greatest directors in Hollywood, Christopher Nolan, the creator of such stunning films as \u2018Memento\u2019, \u2018The dark knight\u2019, Prestige\u2019 and \u2018Interstellar\u2019. the cast is impressive: the main roles are played by Leo DiCaprio, Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Ellen Page, Tom Hardy, Dileep Rao, Cill"
+        },
+        {
+          "text": "Ariadne: \"Why is it so important to dream?\"\r\n\r\nCobb: \"Because, in my dreams we are together.\"\r\n\r\nI haven't seen this movie in years, but after re-watching it struck me hard how depressing this was.\r\n\r\nPutting aside the action sequences and loud music and a complicate plot, there's a beautiful story about a man trying to get back to his children, without it being cheesy. Well if you really break this movie at it's core, it's about two grieving men (Leo and Murphy), both haunted by the past until "
+        },
+        {
+          "text": "Crazy movie. I gotta watch a few more times I was confused. It would be sweet to build your own simulations though."
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/27205"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "The Godfather",
+    "year": "1972",
+    "omdb": {
+      "Title": "The Godfather",
+      "Year": "1972",
+      "Rated": "R",
+      "Released": "24 Mar 1972",
+      "Runtime": "175 min",
+      "Genre": "Crime, Drama",
+      "Director": "Francis Ford Coppola",
+      "Writer": "Mario Puzo, Francis Ford Coppola",
+      "Actors": "Marlon Brando, Al Pacino, James Caan",
+      "Plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "Language": "English, Italian, Latin",
+      "Country": "United States",
+      "Awards": "Won 3 Oscars. 31 wins & 31 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_QL75_UY562_CR8,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "100/100"
+        }
+      ],
+      "Metascore": "100",
+      "imdbRating": "9.2",
+      "imdbVotes": "2,262,742",
+      "imdbID": "tt0068646",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$136,381,073",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0068646/",
+    "wikipedia": {
+      "text": "The Godfather is a 1972 American epic gangster film directed by Francis Ford Coppola, who co-wrote the screenplay with Mario Puzo based on Puzo's best-selling 1969 novel. The film features an ensemble cast that includes Marlon Brando, Al Pacino, James Caan, Richard Castellano, Robert Duvall, Sterling Hayden, John Marley, Richard Conte and Diane Keaton. It is the first installment in The Godfather trilogy, which chronicles the Corleone family under patriarch Vito Corleone (Brando) and the transformation of his youngest son, Michael Corleone (Pacino), from reluctant family outsider to ruthless Mafia boss.\nParamount Pictures obtained the rights to the novel for $80,000, before it gained popularity. Studio executives had trouble finding a director; the first few candidates turned down the position before Coppola signed on to direct the film, but disagreement followed over casting several characters, in particular Vito (Brando) and Michael (Pacino). Filming took place primarily in locations around New York City and Sicily, and it was completed ahead of schedule. The score was composed principally by Nino Rota, with additional pieces by Carmine Coppola.\nThe Godfather premiered at the Loew's State Theatre on March 14, 1972, and was widely released in the United States on March 24, 1972. It was the highest-grossing film of 1972, and was for a time the highest-grossing film ever made, earning between $250 and $291 million at the box office. The film was acclaimed by critics and audiences, who praised its performances\u2014particularly those of Brando and Pacino\u2014direction, screenplay, story, cinematography, editing, score, and portrayal of the Mafia. The Godfather launched the successful careers of Coppola, Pacino, and other relative newcomers in the cast and crew. At the 45th Academy Awards, the film won Best Picture, Brando won Best Actor, and Puzo and Coppola won for Best Adapted Screenplay. In addition, the seven other Oscar nominations included Pacino, Caan, and Duvall, all for Best Supporting Actor, and Coppola for Best Director.\nThe Godfather is regarded as one of the greatest and most influential films ever made, as well as a landmark of the gangster genre. It was selected for preservation in the U.S. National Film Registry of the Library of Congress in 1990, being deemed \"culturally, historically, or aesthetically significant\" and is ranked the second-greatest film in American cinema (behind Citizen Kane) by the American Film Institute. It was followed by the sequels The Godfather Part II (1974) and The Godfather Part III (1990).\n\n",
+      "url": "https://en.wikipedia.org/?curid=2466773"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "The Godfather Review by Al Carlson\r\n\r\nThe Godfather is a film considered by most to be one of the greatest ever made. From The American Film Institute to as voted by users on the Internet Movie Database (IMDB) it is consider to be one of the best. As a film that ranks as high as other masterpieces including Citizen Kane, Pulp Fiction and 12 Angry Men, The Godfather is an exceptional piece of cinema excellence that is flawless and is simply the pinnacle crime drama.\r\nThe Godfather revolves around"
+        },
+        {
+          "text": "The best movie ever...\r\nA masterpiece by the young and talented Francis Ford Coppola, about a Mob family and their drama, the story telling is perfect, the acting good, sometimes a little over the top in the case of Thalia Shire (the sister of the director)\r\n\r\nThe 70's were the best years for Hollywood."
+        },
+        {
+          "text": "While I'm writing this, The Godfather is still beloved by people who love it simply because they are told they have to love it. \r\nIt's written by a mobster with the sole intention of depicting the lead mobsters as demi gods. Every line and every scene in the movie and the book is meant to intimidate people into thinking the \"Mafia\" and really any mob, is a supernatural force.\r\nThis is a movie glorifying control freaks, and most critics are control freaks, and most critics are either in the mob o"
+        },
+        {
+          "text": "When you get a story written quite this magnificently it would take an extreme amateur to screw it up - and Francis Ford Coppola is no amateur. Marlon Brando, Al Pacino, James Caan and Robert Duvall represent the epitome of guile, sophistication, loyalty, honour and brutality in this self-adapted Mario Puzo story of the unambiguously ambitious \"Corleone\" family - they start with nothing and so the only way is up; however and whatever they need to do to get there. The characterisations are layere"
+        },
+        {
+          "text": "Great Movie **Ever**"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/238"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Barbie",
+    "year": "2023",
+    "omdb": {
+      "Title": "Barbie",
+      "Year": "2023",
+      "Rated": "PG-13",
+      "Released": "21 Jul 2023",
+      "Runtime": "114 min",
+      "Genre": "Adventure, Comedy, Fantasy",
+      "Director": "Greta Gerwig",
+      "Writer": "Greta Gerwig, Noah Baumbach",
+      "Actors": "Margot Robbie, Ryan Gosling, Issa Rae",
+      "Plot": "Barbie and Ken are having the time of their lives in the seemingly perfect world of Barbie Land. However, when they get a chance to go to the outside world, they soon discover the joys and perils of living among regular humans.",
+      "Language": "English, Spanish",
+      "Country": "United States, United Kingdom, Canada",
+      "Awards": "Won 1 Oscar. 215 wins & 436 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDU0ZGYtYjA2YS00Y2RlLTgwZDAtYTE2YTM5ZjE1M2JlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "80/100"
+        }
+      ],
+      "Metascore": "80",
+      "imdbRating": "6.8",
+      "imdbVotes": "707,713",
+      "imdbID": "tt1517268",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$636,238,421",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt1517268/",
+    "wikipedia": {
+      "text": "Barbie is a 2023 satirical fantasy comedy film directed by Greta Gerwig from a screenplay she wrote with her husband, Noah Baumbach. Based on the fashion dolls by Mattel, it is the first live-action Barbie film after numerous animated films and specials. Starring Margot Robbie as the title character and Ryan Gosling as Ken, the film follows them on a journey of self-discovery through Barbieland and the real world following an existential crisis. The supporting cast includes America Ferrera, Michael Cera, Kate McKinnon, Issa Rae, Rhea Perlman, and Will Ferrell.\nA live-action Barbie film was announced in September 2009 by Universal Pictures with Laurence Mark producing. Development began in April 2014, when Sony Pictures acquired the film rights. Following multiple writer and director changes and the casting of Amy Schumer and later Anne Hathaway as Barbie, the rights were transferred to Warner Bros. Pictures in October 2018. Robbie was cast in 2019, and Gerwig was announced as director and co-writer with Baumbach in 2020. The rest of the cast was announced in early 2022. Principal photography occurred primarily at Warner Bros. Studios Leavesden, England, and at the Venice Beach Skatepark in Los Angeles from March to July 2022.\nBarbie premiered at the Shrine Auditorium in Los Angeles on July 9, 2023, and was released in the United States on July 21. Its concurrent release with Universal Pictures' Oppenheimer was the catalyst of the \"Barbenheimer\" phenomenon, encouraging audiences to see both films as a double feature. The film grossed $1.448 billion and achieved several milestones, becoming Warner Bros.' highest-grossing film, the highest-grossing film of 2023 and the 14th highest-grossing film of all time at the time of its release.\n\nNamed one of the top ten films of 2023 by the National Board of Review and the American Film Institute, Barbie received widespread critical acclaim and other accolades, including eight Academy Award nominations (among them Best Picture), winning Best Original Song for \"What Was I Made For?\" by Billie Eilish; the song also won the Golden Globe Award for Best Original Song while the film received the inaugural Golden Globe Award for Cinematic and Box Office Achievement.",
+      "url": "https://en.wikipedia.org/?curid=69091250"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "_Barbie_ reels you in with its silly humor and fantastical ideas. The war of Kens during the last half hour of the film is an all-timer because a battle full of handsome maneuvers, like showing off their naked chest and manly noogies, turns into a full on dance off between Ryan Gosling and Simu Liu.\r\n\r\nBut the second half of the film leaves a thought-provoking message in your brain regarding both men and women. The Kens gaining respect little by little mirrors how women eventually earned their r"
+        },
+        {
+          "text": "I took my daughter along to see this, naively expecting light, family friendly fun and well, its not. Not even a little.\r\n\r\nThe kindest way I can describe this monstrosity is mean spirited, misandry. The message is simply not one I want my child taking on board.\r\n\r\nMy daughter wanted to leave before I'd even suggested it, so we did and had a better time doing something else together.\r\n\r\nIn summary, in my opinion, nasty and spiteful. Hollywood deserves its declining viewership, if this is all it "
+        },
+        {
+          "text": "FULL SPOILER-FREE REVIEW @ https://www.firstshowing.net/2023/review-greta-gerwigs-barbie-is-both-hilarious-thought-provoking/\r\n\r\n\"Barbie is hilariously meta, containing spectacularly funny musical numbers, and an efficient tonal balance between over-the-top comedy and rich, thought-provoking social commentary. Inevitable awards are on the way for the brightly colored production design, costumes, and makeup.\r\n\r\nGreta Gerwig and Noah Baumbach's narrative unapologetically tackles quite serious topi"
+        },
+        {
+          "text": "Terrible movie with no plot.\r\n\r\nThe film is marketed as a light hearted family film but instead focuses on adult themes while pushing an extremist feminist agenda which mocks traditional family values and men.\r\n\r\nThe only enjoyable parts of this movie are the scenes with Ken, played by Ryan Gosling."
+        },
+        {
+          "text": "\"Thus Spake Zarabarbie\" - that's the opening message as narrated by Dame Helen Mirren who gives us a potted history of the doll - from it's origins as an inanimate plaything of young girls to it's current status as an empowering conduit for young girls to emerge into society as uninhibited and aspirational beings with only the sky as the limit. Well, that's the philosophy in Margot Robbie's \"Barbieland\". A sterile sort of environment that lives it's life along the lines of a pink \"Groundhog Day\""
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/346698"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Cats",
+    "year": "2019",
+    "omdb": {
+      "Title": "Cats",
+      "Year": "2019",
+      "Rated": "PG",
+      "Released": "20 Dec 2019",
+      "Runtime": "110 min",
+      "Genre": "Comedy, Drama, Family",
+      "Director": "Tom Hooper",
+      "Writer": "Lee Hall, Tom Hooper, Andrew Lloyd Webber",
+      "Actors": "James Corden, Judi Dench, Jason Derulo",
+      "Plot": "A tribe of cats called the Jellicles must decide yearly which one will ascend to the Heaviside Layer and come back to a new Jellicle life.",
+      "Language": "English",
+      "Country": "United Kingdom, United States, Canada, Australia, China, Japan",
+      "Awards": "11 wins & 8 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjhmMjcxNDUtNmVjZS00MjA1LTgzZjgtOTRjMTk4YjU1NDcwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "2.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "19%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "32/100"
+        }
+      ],
+      "Metascore": "32",
+      "imdbRating": "2.8",
+      "imdbVotes": "59,709",
+      "imdbID": "tt5697572",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$27,166,770",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt5697572/",
+    "wikipedia": {
+      "text": "Cats is a 2019 musical fantasy film based on the 1981 West End musical Cats by Andrew Lloyd Webber, which in turn was based on the 1939 poetry collection Old Possum's Book of Practical Cats by T. S. Eliot, another inspiration for the film. The film was directed by Tom Hooper, in his second feature musical following Les Mis\u00e9rables (2012), from a screenplay by Lee Hall and Hooper. It stars an ensemble cast including James Corden, Judi Dench, Jason Derulo in his feature film debut, Idris Elba, Jennifer Hudson, Ian McKellen, Taylor Swift, Rebel Wilson, and Francesca Hayward in her feature film debut.\nFilming took place from December 2018 to April 2019. It premiered at Alice Tully Hall in New York City on 16 December 2019 and went into general release in the United Kingdom and the United States on 20 December. Cats grossed $78.4 million worldwide against a production budget of $80\u2013100 million, resulting in an estimated loss of $71 million after ancillary costs, becoming a box office failure. The film received generally negative reviews from critics and audiences, who were unsettled by the humanoid cats created through visual effects, and is considered to be one of the worst films ever made.",
+      "url": "https://en.wikipedia.org/?curid=50446420"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "I was always excited for \u2018Cats\u2019, and to learn about it as a musical fan. The first trailer made me more excited, because seeing those god-awful effects only made me want to see it more. I always get excited for big-budget musicals because it means we could get more, but \u2018Cats\u2019 just fails on every level. It\u2019s a boring musical with forgettable songs and uninteresting choreography... and then it also fails as a bad film, since it offers no batshit fun. Poking fun at the CGI is all well and good, bu"
+        },
+        {
+          "text": "Theatrical plays or musicals will not always translate well into filmic language, that's well known and will not change, because both media are very different by nature. To question it is to deceive yourself.\r\n\r\nPersonally I've never believed that Cats is a great musical but perhaps its success says something else but even so a film adaptation in my view just could not work. I didn't see how, especially considering the costumes but it was being made so the question now was how it was going to lo"
+        },
+        {
+          "text": "Sometimes a movie struts its awfulness with such glee that it becomes an enjoyably sadistic pleasure rather than a chore to watch.\r\n\r\nSuch is the case with \u201cCats,\u201d the big screen adaptation of Andrew Lloyd Webber\u2019s 1982 musical that became one of Broadway\u2019s longest-running shows. The stage version of \u201cCats\u201d has grossed over $4 billion dollars, so of course Hollywood had to get their greedy claws in the mix and bring it to the local cineplex (where it promptly flopped). Anyone with a brain could "
+        },
+        {
+          "text": "I don't understand why people reviewed this so badly. Minus James Corden this was a very amusing take on a musical I have always loved. Ian McKellen shined as Gus. Jennifer Hudson made me cry as Grizabella. Idris Elba was purr-fect as Macavity. Judy Dench was the perfect choice for Old Deuteronomy. The cast was really good, save for James Corden who grossed me out eating like a pig and hitting wrong notes."
+        },
+        {
+          "text": "What?!\r\n\r\nI'll be honest, I didn't like the musical back in the 90s, I thought it was just plain awful and kind of pretentious.\r\n\r\nBut the good news is that this is so much worse. Even Dame Judy Dench doesn't seem to be able to find a footing, and she's a Dame for a reason, she's probably one of the greatest living actresses on the face of the earth... and Cats makes her look utterly incompetent.\r\n\r\nIt's a cringe fest from start to finish.\r\n\r\nAnd all I can say is that I am so sorry so many talen"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/536869"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Parasite",
+    "year": "2019",
+    "omdb": {
+      "Title": "Parasite",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "08 Nov 2019",
+      "Runtime": "132 min",
+      "Genre": "Drama, Thriller",
+      "Director": "Bong Joon Ho",
+      "Writer": "Bong Joon Ho, Han Jin-won",
+      "Actors": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong",
+      "Plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "Language": "Korean, English",
+      "Country": "South Korea",
+      "Awards": "Won 4 Oscars. 309 wins & 261 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "99%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "97/100"
+        }
+      ],
+      "Metascore": "97",
+      "imdbRating": "8.5",
+      "imdbVotes": "1,200,817",
+      "imdbID": "tt6751668",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$53,847,897",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt6751668/",
+    "wikipedia": {
+      "text": "Parasite (Korean: \uae30\uc0dd\ucda9) is a 2019 South Korean black comedy thriller film directed by Bong Joon Ho, who co-wrote the screenplay with Han Jin-won. It stars Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam, Jang Hye-jin, Park Myung-hoon, and Lee Jung-eun. The film follows a poor family who infiltrates the home and life of a wealthy family.\nThe script is based on a play Bong wrote in 2013. He later adapted it into a 15-page film draft, which was split into three different drafts by Han. Bong said he was inspired by the Korean film The Housemaid (1960) and the 1930s Christine and L\u00e9a Papin incident. Filming ran from May to September 2018 and included cinematographer Hong Kyung-pyo, editor Yang Jin-mo, and composer Jung Jae-il. Parasite premiered on 21 May 2019 at the Cannes Film Festival, where it became the first Korean film to win the Palme d'Or. It was praised for its direction, screenplay, performances, editing, and production design. It was released in South Korea by CJ Entertainment on 30 May, grossing $258 million worldwide on an $11.4 million budget.\nAmong its numerous accolades, Parasite won the Academy Award for Best Picture at the 92nd Academy Awards, becoming the first non-English-language film to do so. It won an additional three Oscars, for Best Director, Best Original Screenplay, and Best International Feature Film. It is the first South Korean film to receive any Academy Award recognition, and one of only four films overall to win both the Palme d'Or and the Academy Award for Best Picture, the first such achievement in over 60 years. It won the Golden Globe Award for Best Motion Picture \u2013 Non-English Language and the BAFTA Award for Best Film Not in the English Language, and became the first non-English-language film to win the Actor Award for Outstanding Performance by a Cast in a Motion Picture. \nSince its release, Parasite has been regarded as Bong's magnum opus and was ranked in the 2022 Sight and Sound poll as the 90th best film of all time. In 2025, The New York Times ranked it as the best movie of the 21st century so far in a list based on a vote by readers, actors, and directors. As of February 2025, an HBO limited television series based on the film is in early development.\n\n",
+      "url": "https://en.wikipedia.org/?curid=56746570"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "What makes \u2018Parasite\u2019 so satisfying is that it commits neither error. It\u2019s an engrossing, stylish and near perfect movie, and its underlying themes go beyond merely pointing out class exploitation to challenge the logic of capital. Though he is often juggling a mosaic of characters, themes and social issues, Bong never eschews his anarchic impulses and dark humour. It\u2019s a movie that should be seen as widely as possible, if only so that Bong Joon-ho gets more chances to make movies for modern aud"
+        },
+        {
+          "text": "The working class and down on their luck Kim family struggle to make ends meet. When a friend of the son, Ki-Woo\u2019s, who is an English tutor for the daughter in the wealthy Park family, has to leave his position, he recommends Ki-Woo for the job. Now having an \"in\" with the wealthy family, the Kims begin plotting the downfall of the current household servants and inserting themselves into those vacant positions, making them all gainfully employed and with money finally flowing into the household."
+        },
+        {
+          "text": "This is VERY HIGHLY OVERRATED. \r\nThe most part of the movie is foul-playing, most of those scenes seem to have been copied from the 1999/old Vijay\u2019s movie: Minsaara Kannan [IMDB: https://www.imdb.com/title/tt7562630/?ref_=nv_sr_srsg_2], (Warning: This again might be a copy of some other movie as well]. \r\n\u201cMorse code\u201d has been used in a much better way in 2017 Ajith\u2019s film: Vivegam [IMDB:https://www.imdb.com/title/tt6878378/?ref_=nv_sr_srsg_0] [Letterboxd: https://letterboxd.com/film/vivegam/]\r\nI"
+        },
+        {
+          "text": "errbnb\r\n\r\nNews that Adam McCay is collaborating with Bong Joon Ho to retool Parasite as a Netflix series makes me positively giddy. Parasite is easily the best movie I've seen since the Big Short. Joon Ho's compelling ease of execution alongside the effortless lure of the plot's trappings had me hooked in an instant. I would have been happy watching this family fold pizza boxes for two hours. The story, like the family, takes on a life of its own, rapidly elevating to a setup impossible to susta"
+        },
+        {
+          "text": "\"You know what kind of plan that never fails? No plan. No plan at all. You know why? Because life cannot be planned.\"\r\n\r\n'Parasite' is absolutely fantastic. I'm still buzzing how good this movie is. Unpredictable and nuts. You know, this summer I was starting to get a little worn out with the endless sequels, remakes and soulless crash grabs, so I find it refreshing we get movies like this once awhile.\r\n\r\nI admire Bong Joon-Ho as a director, especially his Korean movies. Not to say I dislike his"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/496243"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Joker",
+    "year": "2019",
+    "omdb": {
+      "Title": "Joker",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "04 Oct 2019",
+      "Runtime": "122 min",
+      "Genre": "Drama",
+      "Director": "Todd Phillips",
+      "Writer": "Todd Phillips, Scott Silver, Bob Kane",
+      "Actors": "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
+      "Plot": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City.",
+      "Language": "English, German",
+      "Country": "United States, Canada, Australia",
+      "Awards": "Won 2 Oscars. 120 wins & 247 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "68%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "59/100"
+        }
+      ],
+      "Metascore": "59",
+      "imdbRating": "8.3",
+      "imdbVotes": "1,729,763",
+      "imdbID": "tt7286456",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$335,477,657",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt7286456/",
+    "wikipedia": {
+      "text": "Joker is a 2019 American psychological thriller film directed by Todd Phillips, who co-wrote the screenplay with Scott Silver. Based on the DC Comics supervillain the Joker, it stars Joaquin Phoenix and provides an alternative origin story for the character. Against the backdrop of a decaying Gotham City, the film follows Arthur Fleck, a mentally ill party clown and aspiring stand-up comedian whose descent into moral nihilism inspires a violent countercultural revolution against the wealthy. Robert De Niro, Zazie Beetz, and Frances Conroy appear in supporting roles.\nPhillips conceived Joker in 2016 and wrote the script with Silver throughout 2017. The two were inspired by 1970s character studies and the films of Martin Scorsese, particularly Taxi Driver (1976) and The King of Comedy (1982); Scorsese was initially attached to the project as a producer. The film loosely adapts plot elements from Batman: The Killing Joke (1988) and The Dark Knight Returns (1986), but Phillips and Silver otherwise did not look to specific comics for inspiration, nor did they wish for it to be connected to any prior Batman film continuity. Phoenix became attached in February 2018 and was cast that July, while the majority of the cast signed on by August. Principal photography took place in New York City, Jersey City and Newark, from September to December 2018. Joker is the first live-action theatrical Batman film to receive an R rating from the Motion Picture Association.\nJoker premiered at the 76th Venice International Film Festival on August 31, 2019 where it won the Golden Lion, and was theatrically released in the United States on October 4 by Warner Bros. Pictures. It received mixed reviews from critics, though Phoenix's performance received widespread acclaim. It was a major box office success, setting records for an October release and going on to gross over $1 billion worldwide, becoming the first R-rated film to do so. It held the record for highest-grossing R-rated film until being surpassed by Deadpool & Wolverine in 2024. The film was nominated for eleven awards at the 92nd Academy Awards (including Best Picture), winning two (Best Actor for Phoenix and Best Original Score) and received numerous other accolades. A sequel, Joker: Folie \u00e0 Deux, was released in 2024, to a critical and commercial failure.",
+      "url": "https://en.wikipedia.org/?curid=57687434"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "If you enjoy reading my Spoiler-Free reviews, please follow my blog :)\r\n\r\nObviously, Joker is one of my most anticipated movies of 2019. I mean, how couldn't it be?! Besides belonging to the superhero genre, DC has been on a streak of great films within its universe, so an isolated installment definitely excites me, especially about one of the evilest villains ever. It's by far one of the less comic-book-y flicks of the century. It doesn't follow the generic origin story formula, it avoids any c"
+        },
+        {
+          "text": "Joker. The character that has existed since 1940, has become so heavy with so many different portrayals, different origins, that it feels impossible for any mortal man alive to impersonate the scattered personalities. It is an insurmountable task for any director to digest it all and still produce one more.\r\n\r\nTodd Phillips had a crazy challenge. He brought in one of the best actors alive to lift it with him, Joaquin Phoenix. Together, they have built a mass-market masterpiece which is just abov"
+        },
+        {
+          "text": "The Joker is similar to the DC Joker character but is not a criminal genius. The movie was a great depiction of how a person who has been mistreated, lied to, and ignored, totally lacking access to human compassion, can snap. The acting is top notch, and it puts a spotlight on the importance of mental health in modern times."
+        },
+        {
+          "text": "Okay, this film has already been so widely debated that I\u2019m not sure what I can really add to the conversation. So, I\u2019ll just give my thoughts.\r\n\r\n\u201cJoker\u201d is a fairly basic character study of Arthur Fleck, a mentally ill man who feels increasingly marginalized by an uncaring and brutal society in Gotham City. To start, the characters, except for Arthur himself, are pretty flat. They seem to have little purpose other than to further Arthur\u2019s story. This includes Thomas Wayne, who in other media i"
+        },
+        {
+          "text": "*A Masterpiece*.\r\n\r\nThe movie shows the escalating events that made Arthur become the Joker. Initially an inoffensive poor and sick man, Arthur suffered a tide of unfortunate events that pushed him closer and closer to the edge. \r\n\r\nIgnored and despised by everyone, sick and alone in the world, and neglected by the State, Arthur becomes progressively more violent until he breaks.\r\n\r\nMuch more than one more Super-hero movie, *Joker* uses well-known characters to promote the reflection on the \"ign"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/475557"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Interstellar",
+    "year": "2014",
+    "omdb": {
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Rated": "PG-13",
+      "Released": "07 Nov 2014",
+      "Runtime": "169 min",
+      "Genre": "Adventure, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan",
+      "Actors": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "Plot": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.",
+      "Language": "English",
+      "Country": "United States, United Kingdom, Canada",
+      "Awards": "Won 1 Oscar. 45 wins & 148 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "73%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,617,722",
+      "imdbID": "tt0816692",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$203,227,580",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0816692/",
+    "wikipedia": {
+      "text": "Interstellar is a 2014 epic science fiction drama film directed by Christopher Nolan, who co-wrote the screenplay with his brother, Jonathan Nolan. It features an ensemble cast led by Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, and Michael Caine. Set in a dystopian future where Earth is suffering from catastrophic blight and famine, the film follows a group of astronauts who travel through space in search of a new home for humanity.\nThe film began development in 2006 from a treatment by producer Lynda Obst and theoretical physicist Kip Thorne, and was originally set to be directed by Steven Spielberg. Thorne served as an executive producer and scientific consultant on the film, and wrote the tie-in book The Science of Interstellar. It was Obst's final film as producer before her death. Cinematographer Hoyte van Hoytema shot it on 35 mm film in the Panavision anamorphic format and IMAX 70 mm. It was filmed, beginning in late 2013, in Alberta (Canada), Kirkjub\u00e6jarklaustur (a village in Iceland), and Los Angeles. Interstellar uses extensive practical and miniature effects, and the company DNEG created additional visual effects.\nInterstellar premiered at the TCL Chinese Theatre, Los Angeles, on October 26, 2014, and was released in theaters in the United States on November 5, and in the United Kingdom on November 7, with Paramount Pictures distributing in the United States and Warner Bros. Pictures distributing in international markets. In the United States, it was first released on film stock, expanding to venues using digital projectors. It was a commercial success, grossing $681.1 million worldwide during its initial theatrical run, and $782.7 million worldwide with subsequent releases, making it the 10th-highest-grossing film of 2014. The film received generally positive reviews from critics. Among its various accolades, Interstellar was nominated for five awards at the 87th Academy Awards, winning for Best Visual Effects.",
+      "url": "https://en.wikipedia.org/?curid=6009939"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Well, one off from two of this year's most expected movies alongside 'The Battle of Five Armies'. Like all the Chris Nolan fans, I was equally excited to see the movie on the opening day opening show. But I slightly disappointed that it was not a digital 3D film. I agree, this science-fiction was more dramatized than usual space travel stories does with an adventure-thriller. Almost a 3 hour long stretch movie did not waste much time to take us to the core of the story. Get prepared for this ext"
+        },
+        {
+          "text": "People seem to think that if you enjoy a Christopher Nolan movie, you are a fanboy and the film couldn't really be that good. That is not true. He has never made a bad movie, Insomnia is probably his worst and it is still an excellent movie. \r\nInterstellar is up there in his top 3, with The Dark Knight being number 1 and Inception in number 2. I don't think he will ever make a better movie than The Dark Knight, it is without a doubt a masterpiece of cinema in my opinion. It can be enjoyed on so "
+        },
+        {
+          "text": "Another grandiloquent movie from Christoper Nolan.\r\n\r\nThe cast is good, and McConaughey performs a role made for himself. The photography is very nice but the movie commits all the same mistakes than previous Nolan's movies. I think mistakes but it may be that they are the points Nolan fans enjoy the most ...\r\n\r\n* The story makes you believe it is a realy deeply thought plot but, in the end, it has so basic mistakes and stupidities that make it nonsensical.\r\n* There is a general ambience of ever"
+        },
+        {
+          "text": "\"Man kind was born on earth, it was never meant to die here.\"\r\n\r\nIT has been two days since I watched it and I still can't get it out of my head. I can safely say that it has been a long LONG time since a movie had this much effect on me after watching it. And the only thing I can think of now is to somehow Re-Watch it again.\r\n\r\nThis movie was surprisingly different from Christopher Nolan's recent works because they had been great cinematic entertainment pieces catered to a wider audience with a"
+        },
+        {
+          "text": "This was my most anticipated film of 2014, and I was not disappointed. \r\n\r\nThe story was slightly difficult to follow on the first watch, but that was to be expected in a film dealing with complicated fields such as astrophysics and time dilation. Many didn't find its overall message - that love is the most powerful force in the universe which transcends space and time - to be very appealing, but I thought it was an interesting take on special relativity and how two people can be bound by a comm"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/157336"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "The Room",
+    "year": "2003",
+    "omdb": {
+      "Title": "The Room",
+      "Year": "2003",
+      "Rated": "R",
+      "Released": "27 Jun 2003",
+      "Runtime": "99 min",
+      "Genre": "Drama",
+      "Director": "Tommy Wiseau",
+      "Writer": "Tommy Wiseau",
+      "Actors": "Tommy Wiseau, Juliette Danielle, Greg Sestero",
+      "Plot": "In San Francisco, an amiable banker's seemingly perfect life is turned upside down when his deceitful bride-to-be embarks on a passionate affair with his best friend.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 win total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmNkMThiODYtZTAzMC00ODJkLTg5MmEtMWIyMGFlZDlkYmNlXkEyXkFqcGc@._V1_QL75_UY562_CR5,0,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "3.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "24%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "9/100"
+        }
+      ],
+      "Metascore": "9",
+      "imdbRating": "3.6",
+      "imdbVotes": "101,091",
+      "imdbID": "tt0368226",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$549,602",
+      "Production": "Chloe Productions, Wiseau-Films, TPW Films",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0368226/",
+    "wikipedia": {
+      "text": "The Room is a 2003 American independent romantic drama film written by, directed by, produced by, and starring Tommy Wiseau. The film also stars Juliette Danielle and Greg Sestero. Set in San Francisco, the film is centered on a melodramatic love triangle between amiable banker Johnny (Wiseau), his deceptive fianc\u00e9e Lisa (Danielle), and his conflicted best friend Mark (Sestero). The work was reportedly intended to be semi-autobiographical. According to Wiseau, the title alludes to the potential of a room to be the site of both good and bad events. The stage play from which the film is derived was so named due to its events taking place entirely in a single room.\nA number of publications have labeled The Room as one of the worst films ever made, one even describing it as \"the Citizen Kane of bad movies\". Originally shown only in a limited release in California, The Room quickly became a cult film due to its bizarre and unconventional storytelling, technical and narrative issues, and Wiseau's performance. Although Wiseau has retrospectively described the film as a black comedy, audiences have generally viewed it as a poorly made drama, an opinion shared by some of the cast. Although the film was a box-office bomb, home-media sales and notoriety following its initial release significantly increased its public profile.\nThe Disaster Artist, Sestero's memoir of the making of The Room, was co-written with Tom Bissell and published in 2013. A film of the same title based on the book, directed by and starring James Franco, was released in 2017; the book and film received widespread acclaim and numerous award nominations. A remake starring Bob Odenkirk was released in 2025; it was initially planned to be released in 2023, which would have coincided with the twentieth anniversary of The Room.",
+      "url": "https://en.wikipedia.org/?curid=5443971"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Everybody knows _The Room_ is bad. That's like, the whole thing. But anybody who says its badness is self-aware is a liar. It's regular bad. It's regular fucking awful. Genuinely, the movies my peers in film class were making when I was **fifteen** are better than _The Room_. Before you say it, yes I did watch The Room in a group, and no I didn't enjoy it.\r\n\r\n_Final rating:\u00bd - So bad it\u2019s offensive. I may never fully recover._"
+        },
+        {
+          "text": "After seeing the Disaster Artist, I had to see this movie! HORRIBLE! Laughing my ass off but HORRIBLE! Good for you Tommy! Live thendream!!! Still laughing that I'm really watching this! Kind of like a porn movie without the porn!!!"
+        },
+        {
+          "text": "Brought to us by Wiseau-Films working with Chloe Productions and TPW Films is probably one of the worst films I have seen recently as I have discussed the film with others in my own podcast on Inside Movies Galore and I\u2019m still on the fence whether I actually like the film. I watched this film twice once for my podcast and once for another that is enough and I will probably never watch this film again in my life if I don\u2019t have to.\r\n\r\nThis is Tommy Wiseau\u2019s debut film from 2003 where he plays a "
+        },
+        {
+          "text": "I suppose that you just have to leave your brain at the door for this nonsense. Sadly, at this most recent showing in London, we were not permitted to throw spoons (nor in theory, to call out - but, hey - good luck with that!). Anyway the somewhat unattractive \"Johnny\" (Tommy Wiseau) is living with pretty fianc\u00e9e \"Lisa\" (Juliette Danielle) who decides that she'd probably rather hook up with the rather handsome \"Mark\" (Greg Sestero)... Will they get rumbled? Will things ever be the same again? Of"
+        },
+        {
+          "text": "A cult classic of \"so bad that it's good\" filmmaking, the story of how The Room was created has become as legendary as the film itself. Watching The Room gave me the impression I was watching a film written and directed by an extra-terrestrial being who'd never seen a movie before, nor seen real humans interact. \r\n\r\nTommy Wiseau's acting has to be seen to be believed. It is not what one might consider \"good\", to put it mildly. There are way too many boring and cringeworthy sex scenes in this, wh"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/17473"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Titanic",
+    "year": "1997",
+    "omdb": {
+      "Title": "Titanic",
+      "Year": "1997",
+      "Rated": "PG-13",
+      "Released": "19 Dec 1997",
+      "Runtime": "194 min",
+      "Genre": "Drama, Romance",
+      "Director": "James Cameron",
+      "Writer": "James Cameron",
+      "Actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane",
+      "Plot": "A young aristocrat falls in love with a poor artist aboard the luxurious, ill-fated RMS Titanic.",
+      "Language": "English, Swedish, Italian, French",
+      "Country": "United States, Mexico",
+      "Awards": "Won 11 Oscars. 126 wins & 84 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "75/100"
+        }
+      ],
+      "Metascore": "75",
+      "imdbRating": "8.0",
+      "imdbVotes": "1,415,842",
+      "imdbID": "tt0120338",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$674,354,882",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0120338/",
+    "wikipedia": {
+      "text": "Titanic is a 1997 American historical romance film written and directed by James Cameron. Incorporating both historical and fictional aspects, it is based on accounts of the sinking of RMS Titanic in 1912. Leonardo DiCaprio and Kate Winslet star as members of different social classes who fall in love during the ship's ill-fated maiden voyage. The ensemble cast includes Billy Zane, Kathy Bates, Frances Fisher, Bernard Hill, Jonathan Hyde, Danny Nucci, David Warner and Bill Paxton.\nCameron's inspiration came from his fascination with shipwrecks. He felt a love story interspersed with human loss would be essential to convey the emotional impact of the disaster. Production began on September 1, 1995, when Cameron shot footage of the Titanic wreck. The modern scenes were shot on board the Shirshov Institute of Oceanology research vessel Akademik Mstislav Keldysh, which Cameron had used as a base when filming the wreck. Scale models, computer-generated imagery (CGI), and a reconstruction of the Titanic built at Baja Studios were used to recreate the sinking. Titanic was initially in development at 20th Century Fox, but delays and a mounting budget resulted in Fox partnering with Paramount Pictures for financial help. It was the most expensive film ever made at the time, with a production budget of $200 million. Filming took place from July 1996 to March 1997.\nTitanic premiered at the Tokyo International Film Festival on November 1, 1997, and was released in the United States on December 19. It was distributed by Paramount Pictures in the United States and Canada and by 20th Century Fox in other territories. It was praised for its visual effects, performances (particularly those of DiCaprio, Winslet, and Gloria Stuart), production values, direction, score, cinematography, story, and emotional depth. Among other awards, the film received fourteen nominations at the 70th Academy Awards and won eleven, including Best Picture and Best Director. In doing so, it tied both All About Eve (1950) for the record for the most Academy Award nominations, and Ben-Hur (1959) for the most Academy Awards won by a film, making Titanic the most successful individual film in Academy Award history.\nWith an initial worldwide gross of over $1.84 billion, becoming the highest-grossing film of 1997, Titanic was the first film to reach the billion-dollar mark, and was the highest-grossing film of all time until Cameron's next film, Avatar (2009), surpassed it in 2010. Income from the initial theatrical release, retail video, and soundtrack sales and US broadcast rights exceeded $3.2 billion. Re-releases pushed the worldwide theatrical total to $2.264 billion, making Titanic the second film to gross more than $2 billion worldwide after Avatar; as of 2026, it is the fifth-highest-grossing film. In 2017, the Library of Congress selected it for preservation in the United States National Film Registry as \"culturally, historically, or aesthetically significant\".",
+      "url": "https://en.wikipedia.org/?curid=52371"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Beautiful Romance - Tragedy Unbound.\r\n\r\nIt has kind of become the popular thing to kick Titanic, the film and its achievements. It's like the love it garnered on release and the colossal waves it made in the history of cinema, never happened, or as some want you to believe, doesn't matter. I can tell you now that many of my macho fuelled friends will privately, under the influence of liquid refreshments, admit to having affection for the film, but socially in a circle environment? Not a bit of i"
+        },
+        {
+          "text": "Set around the ill-fated maiden voyage of the RMS \"Titanic\", this is essentially a film in two parts. The first, weaker, element features a young \"Dawson\" (Leonardo DiCaprio) who wins a third class ticket to New York on the soon to depart liner. Meantime, the wealthy but unhappy \"Rose\" (Kate Winslet) is up in the posh cabins with her cold and unfeeling fianc\u00e9e \"Hockley\" (Billy Zane) and her equally unpleasant, venally ambitious mother \"Ruth\" (Frances Fisher). Desperately unhappy, \"Rose\" consider"
+        },
+        {
+          "text": "Awesome"
+        },
+        {
+          "text": "Titanic is simply a masterpiece. This movie has it all. A tremendous score, deep emotion emphasized by fantastic performances, and incredibly gripping and high-stakes action. There is really something for everyone here.\r\n\r\nBefore I continue my praise of the film, I think it has one glaring weakness: the present-day plot. For me, this just did not work all that well. I understand that it was implemented for the main story to have a more emotional impact, but it was not needed. It added almost thi"
+        },
+        {
+          "text": "Titanic was enjoyable initially, but the constant TV reruns got old fast. I don't even own a TV anymore, and I'm in no hurry to watch it again. Still, it's a good movie, deserving of a 7/10 rating."
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/597"
+    },
+    "collected": "2026-11-19"
+  },
+  {
+    "title": "Shrek",
+    "year": "2001",
+    "omdb": {
+      "Title": "Shrek",
+      "Year": "2001",
+      "Rated": "PG",
+      "Released": "18 May 2001",
+      "Runtime": "90 min",
+      "Genre": "Animation, Adventure, Comedy",
+      "Director": "Andrew Adamson, Vicky Jenson",
+      "Writer": "William Steig, Ted Elliott, Terry Rossio",
+      "Actors": "Mike Myers, Eddie Murphy, Cameron Diaz",
+      "Plot": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 40 wins & 60 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "7.9",
+      "imdbVotes": "823,205",
+      "imdbID": "tt0126029",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$270,491,111",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0126029/",
+    "wikipedia": {
+      "text": "Shrek is a 2001 American animated fantasy comedy film directed by Andrew Adamson and Vicky Jenson, and written by Ted Elliott, Terry Rossio, Joe Stillman, and Roger S. H. Schulman, loosely based on the 1990 children's picture book Shrek! by William Steig. It is the first installment in the Shrek film series, and stars Mike Myers, Eddie Murphy, Cameron Diaz and John Lithgow. In the film, an embittered ogre named Shrek (voiced by Myers) finds his home in the swamp overrun by fairy tale creatures banished by the obsessive ruler Lord Farquaad (Lithgow). With the help of Donkey (Murphy), Shrek makes a pact with Farquaad to rescue Princess Fiona (Diaz) in exchange for regaining control of his swamp.\nAfter purchasing the rights to Steig's book in 1991, Steven Spielberg sought to produce a traditionally-animated film adaptation, but John H. Williams convinced him to bring the project to the newly-founded DreamWorks Pictures in 1994. Jeffrey Katzenberg, along with Williams and Aron Warner, began development on Shrek in 1995, immediately following the studio's purchase of the rights from Spielberg. Chris Farley was cast as the voice of the title character, recording most of the required dialogue, but died in 1997 before his work on the film was completed; Myers was hired to replace him, and gave Shrek his characteristic Scottish accent. The film was originally intended to be created using motion capture, but after poor test results, the studio hired Pacific Data Images to complete the final computer animation. Shrek parodies other fairy tale adaptations, primarily Disney animated films.\nShrek premiered at the Mann Village Theatre in Westwood on April 22, 2001, and was later shown at the 2001 Cannes Film Festival where it competed for the Palme d'Or, making it the first animated film since The Missing Link (1980) to be chosen as main competition at the festival. The film was theatrically released by DreamWorks Pictures in the United States on May 18, 2001, and grossed $494.3 million worldwide, becoming the fourth highest-grossing film of 2001. It received widespread acclaim from critics for its animation, voice performances, soundtrack, writing and humor, which they noted catered to both children and adults. Shrek was named one of the top ten films of 2001 by the American Film Institute, the first animated film to be listed, and won numerous accolades including the BAFTA Award for Best Adapted Screenplay and the inaugural Academy Award for Best Animated Feature.\nThe film's major success helped establish DreamWorks Animation as a competitor to Pixar in feature film computer animation. Three sequels have been released\u2014Shrek 2 (2004), Shrek the Third (2007), and Shrek Forever After (2010)\u2014along with other productions, notably a fourth sequel\u2014Shrek 5 (2027)\u2014in development. It is also regarded as one of the most influential animated films of the 2000s and one of the greatest animated films ever made. In 2020, the United States Library of Congress selected Shrek for preservation in the National Film Registry, becoming the first animated film of the 21st century to be preserved.",
+      "url": "https://en.wikipedia.org/?curid=18717177"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Shrek is a masterpiece! It helped subvert the Disney Renaissance formula with great humor and heart. Myers, Murphy, Diaz and Lithgow did a great job voicing the characters. Now that this film is 20 years old, I am glad it existed."
+        },
+        {
+          "text": "Eddie Murphy was actually funny in this. I mean he was 1980s Eddie Murphy style funny in this. It was like he was at the top of his game again.\r\n\r\nIt makes you miss Eddie. What we have today is not the glory that he once was.\r\n\r\nBut, beyond the great return of funny Eddie...there is a wonderful dark humor that goes great with an otherwise wholesome and moving moral."
+        },
+        {
+          "text": "It was so fun and a new try. \ud558\ud558"
+        },
+        {
+          "text": "Poor old ogre \"Shrek\" just want to be left alone, that's all - he's got a bit of the Greta Garbo's about him. Rather inconveniently, though, nasty Lord \"Farquaad\" who has a little of the Napoleon syndrome about him, banishes all the fairytale creatures from his lands and so they turn up on the doorstep of our green friend. How can he be rid of them all? Well together with his new (and frankly quite annoying friend) \"Donkey\" they head to the castle where they are given challenge: go and rescue th"
+        }
+      ],
+      "url": "https://www.themoviedb.org/movie/808"
+    },
+    "collected": "2026-11-19"
+  }
+]
