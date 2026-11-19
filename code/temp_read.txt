@@ -1,0 +1,31 @@
+Likely research papers that could be used for our report:
+
+Paper and explained what to use it for
+1. Rafailov et al., “Direct Preference Optimization: Your Language Model is Secretly a Reward Model” (arXiv 2305.18290, 2023)
+Your core learning method. I’m fairly sure it was published at NeurIPS 2023, so check.
+
+2. Gao, Yen, Yu, Chen, “Enabling Large Language Models to Generate Text with Citations” (EMNLP 2023, doi 10.18653/v1/2023.emnlp-main.398)	
+Citation correctness metrics; closest to your “cite your sources” goal.
+
+3. Lewis et al., “Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” (NeurIPS 2020)	
+The retrieve-then-generate design.
+
+4. Ouyang et al., “Training language models to follow instructions with human feedback” (2022)	
+RLHF, the method DPO simplifies.
+
+5. Ji et al., “Survey of Hallucination in Natural Language Generation” (ACM Computing Surveys, 2023)	
+Why you abstain and verify claims.
+
+6. Maas et al., “Learning Word Vectors for Sentiment Analysis” (ACL 2011)	
+The classic IMDb review dataset, so you can compare it to your data.
+
+7. Tunstall et al., “Zephyr: Direct Distillation of LM Alignment” (arXiv 2023)	
+DPO applied to a small open model, like your plan.
+
+8. Nakano et al., “WebGPT: Browser-assisted question-answering with human feedback” (2021)	
+Web search plus citations plus human feedback.
+
+
+__all the code in this folder is temporary and not finalized. theres a good bit of work that needs to get done to have a properly working bot__
+
+the evaluate.py isn't completely necessary. it was something I had used in the past and isn't absolutely needed anymore.
