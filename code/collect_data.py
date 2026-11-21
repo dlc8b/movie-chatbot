@@ -3,9 +3,11 @@
 import requests   # lets Python talk to web APIs
 import json       # lets us save data to a file
 import datetime   # lets us stamp the collection date
+import os         # lets us access environment variables
 
-OMDB_KEY = "aa178da4"
-TMDB_KEY = "097722fc798ef4378261c460366cda76"
+#create an .env file with your API keys
+OMDB_KEY = os.getenv("OMDB_KEY")
+TMDB_KEY = os.getenv("TMDB_KEY")
 
 # Start small; grow to 40+ movies for the final report
 TITLES = ["Inception", "The Godfather", "Barbie", "Cats", "Parasite",

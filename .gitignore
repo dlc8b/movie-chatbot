@@ -1,0 +1,8 @@
+# Ignore standard .env file
+.env
+
+# Optional: Ignore all .env variants (e.g., .env.local, .env.production)
+.env*
+
+# Optional: Keep an example template tracked
+!.env.example
