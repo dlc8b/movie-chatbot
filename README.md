@@ -52,8 +52,8 @@ The planned system follows this workflow:
 1. **User Input:** The user enters a movie title.
 2. **Data Collection:** The system retrieves relevant movie information and reviews from available sources.
 3. **Review Generation:** A language model uses the retrieved information to produce a summary, analysis, comparison of viewpoints, and overall rating.
-4. **User Feedback:** The user can rate the general review, critic response,
-   audience review, and comparison of reviews separately.
+4. **User Feedback:** The user compares two answers to the same evidence and
+   chooses A, B, or skip for each section.
 5. **Model Improvement:** Reviewed feedback examples may be used to improve future responses through Direct Preference Optimization (DPO).
 
 The chatbot will also consider relevant conversation context, such as whether a requested movie belongs to a series. Responses will include source links. If the available evidence is insufficient or sources disagree, the chatbot should communicate that limitation rather than make unsupported claims.
@@ -62,16 +62,57 @@ The chatbot will also consider relevant conversation context, such as whether a 
 
 The project plans to use **Direct Preference Optimization (DPO)** as its primary learning method.
 
-For the same question and context:
-- A positively rated response that is supported by its sources may be selected as the preferred response.
-- A weaker or negatively rated response may be selected as the rejected response.
-- After enough preference pairs have been reviewed, a small open model will be fine-tuned with DPO.
+For the same question and context, a reviewer compares two candidate answers.
+Each section choice becomes a preference pair: the chosen text is preferred
+and the other text is rejected. Skipped sections do not become training data.
+After collecting and reviewing enough pairs, a small open model can be
+fine-tuned with DPO.
 
 The purpose is to make future responses more likely to follow preferred answer patterns while continuing to rely on retrieved evidence.
 
 A positive user rating does not automatically mean an answer is factually correct. Before examples are used for training, the team will review the supporting sources and preference pairs. The review process will look for issues such as confident but unsupported claims, excessive agreement, and failure to acknowledge disagreement among reviewers.
 
-The system plans to log questions, sources, answers, and feedback without retaining personal identifiers.
+The system logs questions, evidence, prompts, candidate answers, and
+section-level preferences in `comparisons.jsonl` without retaining personal
+identifiers. The earlier yes/no records in `feedback_llm.jsonl` do not contain
+rejected alternatives and cannot be converted into valid DPO pairs.
+Candidate A is generated greedily and candidate B is sampled from the same
+model using the same evidence and section prompt. This is an initial way to
+collect comparisons, not an independent factual check; reviewers should still
+verify source support.
+
+### Running the DPO prototype
+
+The training script uses LoRA and requires a CUDA-enabled PyTorch install and
+a compatible NVIDIA GPU. Install the PyTorch build appropriate for your GPU
+from the [official PyTorch instructions](https://pytorch.org/get-started/locally/),
+then install the DPO dependencies:
+
+```powershell
+py -m pip install -r requirements-dpo.txt
+```
+
+From the `code` directory:
+
+```powershell
+py llm_bot.py
+py prepare_dpo_data.py
+```
+
+Review `dpo_dataset.jsonl` before training. Each A/B choice produces a
+section-specific `prompt`, `chosen`, and `rejected` example; skip choices are
+excluded. Keep evaluation questions out of this training data. The trainer
+requires at least 20 reviewed pairs by default:
+
+```powershell
+py train_dpo.py
+```
+
+The adapter is saved to `code/movie_dpo_adapter`. `llm_bot.py` loads that
+adapter automatically when it exists; set `MOVIE_DPO_ADAPTER` to another
+adapter directory to use a different run. Small datasets are useful for
+testing the pipeline but are not enough to establish that DPO improved answer
+quality.
 
 ## Evaluation
 

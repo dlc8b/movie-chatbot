@@ -1,0 +1,4 @@
+trl==1.18.2
+peft>=0.22,<1
+datasets>=4.0,<5
+accelerate>=1.12,<2

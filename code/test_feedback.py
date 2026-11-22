@@ -2,57 +2,98 @@ import json
 import os
 import tempfile
 import unittest
+from unittest.mock import Mock
 
-from feedback import collect_section_feedback, save_feedback
+from feedback import (
+    FEEDBACK_SECTIONS,
+    assemble_response,
+    collect_section_preferences,
+    save_comparison,
+)
 
 
 class FeedbackTests(unittest.TestCase):
-    def test_collects_one_rating_for_each_section(self):
-        answers = iter(["y", "n", " y ", "N"])
+    def setUp(self):
+        self.candidate_a = {
+            section[0]: f"A {section[0]}" for section in FEEDBACK_SECTIONS
+        }
+        self.candidate_b = {
+            section[0]: f"B {section[0]}" for section in FEEDBACK_SECTIONS
+        }
 
-        feedback = collect_section_feedback(lambda _prompt: next(answers))
+    def test_collects_a_b_or_skip_for_each_section(self):
+        answers = iter(["a", "B", "skip", " b "])
+
+        input_fn = Mock(side_effect=answers)
+        preferences = collect_section_preferences(
+            self.candidate_a,
+            self.candidate_b,
+            input_fn=input_fn,
+            output_fn=Mock(),
+        )
 
         self.assertEqual(
-            feedback,
+            preferences,
             {
-                "general_review": "y",
-                "critic_response": "n",
-                "audience_review": "y",
-                "comparison_of_reviews": "n",
+                "general_review": "a",
+                "critic_response": "b",
+                "audience_review": "skip",
+                "comparison_of_reviews": "b",
             },
         )
 
-    def test_reprompts_on_invalid_rating(self):
-        answers = iter(["maybe", "Y", "y", "n", "y", "n"])
-        prompts = []
+    def test_reprompts_on_invalid_preference(self):
+        answers = iter(["maybe", "A", "b", "a", "skip", "a"])
+        input_fn = Mock(side_effect=answers)
 
-        def input_fn(prompt):
-            prompts.append(prompt)
-            return next(answers)
+        preferences = collect_section_preferences(
+            self.candidate_a, self.candidate_b, input_fn, Mock()
+        )
 
-        feedback = collect_section_feedback(input_fn)
+        self.assertEqual(preferences["general_review"], "a")
+        self.assertEqual(input_fn.call_count, 5)
 
-        self.assertEqual(feedback["general_review"], "y")
-        self.assertEqual(len(prompts), 5)
+    def test_assembles_each_section_from_the_selected_candidate(self):
+        preferences = {
+            "general_review": "a",
+            "critic_response": "b",
+            "audience_review": "skip",
+            "comparison_of_reviews": "b",
+        }
 
-    def test_saves_section_feedback_as_jsonl(self):
+        response = assemble_response(
+            self.candidate_a, self.candidate_b, preferences
+        )
+
+        self.assertIn("A general_review", response)
+        self.assertIn("B critic_response", response)
+        self.assertIn("A audience_review", response)
+        self.assertIn("B comparison_of_reviews", response)
+
+    def test_saves_prompt_and_candidates_for_training_provenance(self):
         with tempfile.TemporaryDirectory() as directory:
-            path = os.path.join(directory, "feedback.jsonl")
-            section_feedback = {
-                "general_review": "y",
-                "critic_response": "n",
-                "audience_review": "y",
-                "comparison_of_reviews": "n",
+            path = os.path.join(directory, "comparisons.jsonl")
+            prompts = {
+                section[0]: f"prompt {section[0]}"
+                for section in FEEDBACK_SECTIONS
+            }
+            preferences = {
+                section[0]: "a" for section in FEEDBACK_SECTIONS
             }
 
-            save_feedback(path, "Inception", "A sample answer", section_feedback)
+            save_comparison(
+                path, "Inception", "Inception (2010)", "Evidence",
+                prompts, self.candidate_a, self.candidate_b, preferences,
+                "Qwen test",
+            )
 
-            with open(path, encoding="utf-8") as feedback_file:
-                record = json.loads(feedback_file.readline())
+            with open(path, encoding="utf-8") as comparison_file:
+                record = json.loads(comparison_file.readline())
 
-        self.assertEqual(record["question"], "Inception")
-        self.assertEqual(record["answer"], "A sample answer")
-        self.assertEqual(record["section_feedback"], section_feedback)
+        self.assertEqual(record["prompts"], prompts)
+        self.assertEqual(record["candidate_a"], self.candidate_a)
+        self.assertEqual(record["candidate_b"], self.candidate_b)
+        self.assertEqual(record["preferences"], preferences)
 
 
 if __name__ == "__main__":

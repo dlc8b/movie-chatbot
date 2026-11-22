@@ -1,6 +1,7 @@
-# llm_bot.py
 # Same pipeline as baseline_bot.py, but an LLM writes the answer
 import importlib
+import os
+from pathlib import Path
 
 try:
     _transformers = importlib.import_module("transformers")
@@ -12,73 +13,176 @@ except ModuleNotFoundError as exc:
         "python -m pip install transformers"
     ) from exc
 
+_torch = importlib.import_module("torch")
 AutoTokenizer = _transformers.AutoTokenizer
 AutoModelForCausalLM = _transformers.AutoModelForCausalLM
-from baseline_bot import load_movies, get_scores   # reuse your earlier code
-from feedback import collect_section_feedback, save_feedback
 
-# Download and load the model (first run downloads a few GB)
-model_name = "Qwen/Qwen2.5-1.5B-Instruct"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+from baseline_bot import load_movies, get_scores
+from feedback import (
+    FEEDBACK_SECTIONS,
+    assemble_response,
+    collect_section_preferences,
+    save_comparison,
+)
+
+
+MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
+COMPARISONS_FILE = Path(__file__).with_name("comparisons.jsonl")
+DEFAULT_ADAPTER_DIR = Path(__file__).with_name("movie_dpo_adapter")
+
+adapter_override = os.environ.get("MOVIE_DPO_ADAPTER")
+adapter_dir = Path(adapter_override) if adapter_override else DEFAULT_ADAPTER_DIR
+if adapter_override and not adapter_dir.exists():
+    raise FileNotFoundError(f"DPO adapter directory does not exist: {adapter_dir}")
+
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
+if _torch.cuda.is_available():
+    model.to("cuda")
+
+active_model_name = MODEL_NAME
+if adapter_dir.exists():
+    try:
+        _peft = importlib.import_module("peft")
+    except ModuleNotFoundError as exc:
+        if exc.name != "peft":
+            raise
+        raise RuntimeError(
+            "A trained DPO adapter was found, but PEFT is not installed. "
+            "Install the DPO dependencies from requirements-dpo.txt."
+        ) from exc
+    model = _peft.PeftModel.from_pretrained(model, str(adapter_dir))
+    active_model_name = f"{MODEL_NAME} with adapter {adapter_dir}"
+
+model.eval()
+
 
 def find_movie(question, movies):
-    # Step 1 (Retrieve): match a movie title in the user's text
-    for m in movies:
-        if m["title"].lower() in question.lower():
-            return m
+    for movie in movies:
+        if movie["title"].lower() in question.lower():
+            return movie
     return None
 
-def build_evidence(m):
-    # Step 2: turn the stored data into numbered, citable text
-    scores = get_scores(m)
-    ratings = ", ".join(f"{k}: {v:.0f}/100" for k, v in scores.items())
-    reviews = " | ".join(r["text"][:300] for r in m["tmdb"]["reviews"][:3])
-    return (f"Movie: {m['title']} ({m['year']})\n"
-            f"[1] Ratings via OMDb ({m['imdb_url']}): {ratings}\n"
-            f"[2] Wikipedia ({m['wikipedia']['url']}): {m['wikipedia']['text'][:1000]}\n"
-            f"[3] TMDB audience reviews ({m['tmdb']['url']}): {reviews}")
+
+def build_evidence(movie):
+    scores = get_scores(movie)
+    ratings = ", ".join(f"{source}: {score:.0f}/100"
+                        for source, score in scores.items())
+    reviews = " | ".join(
+        review["text"][:300] for review in movie["tmdb"]["reviews"][:3]
+    )
+    return (
+        f"Movie: {movie['title']} ({movie['year']})\n"
+        f"[1] Ratings via OMDb ({movie['imdb_url']}): {ratings}\n"
+        f"[2] Wikipedia ({movie['wikipedia']['url']}): "
+        f"{movie['wikipedia']['text'][:1000]}\n"
+        f"[3] TMDB audience reviews ({movie['tmdb']['url']}): {reviews}"
+    )
+
+
+def build_section_prompt(question, evidence, label, instruction):
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are a movie review assistant. Use only the evidence "
+                "provided. Do not invent facts or opinions. Cite evidence "
+                "with its bracketed source number. Return only the requested "
+                "section's content, without a heading."
+            ),
+        },
+        {
+            "role": "user",
+            "content": (
+                f"Evidence:\n{evidence}\n\n"
+                f"Question: {question}\n\n"
+                f"Write the {label} section: {instruction}"
+            ),
+        },
+    ]
+    return tokenizer.apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+
+
+def generate_completion(prompt, sample):
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    generation_options = {
+        "max_new_tokens": 180,
+        "do_sample": sample,
+    }
+    if sample:
+        generation_options.update({"temperature": 0.8, "top_p": 0.95})
+
+    with _torch.inference_mode():
+        output = model.generate(**inputs, **generation_options)
+    new_tokens = output[0][inputs["input_ids"].shape[1]:]
+    return tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+
+
+def build_prompts(question, evidence):
+    prompts = {}
+    for key, label, instruction in FEEDBACK_SECTIONS:
+        prompts[key] = build_section_prompt(
+            question, evidence, label, instruction
+        )
+    return prompts
+
+
+def generate_candidates(question, movie):
+    evidence = build_evidence(movie)
+    prompts = build_prompts(question, evidence)
+    candidate_a = {}
+    candidate_b = {}
+    for section in FEEDBACK_SECTIONS:
+        key = section[0]
+        candidate_a[key] = generate_completion(prompts[key], sample=False)
+        candidate_b[key] = generate_completion(prompts[key], sample=True)
+    return evidence, prompts, candidate_a, candidate_b
+
 
 def llm_review(question, movies):
     movie = find_movie(question, movies)
     if movie is None:
         return "I couldn't find that movie in my data."
 
-    # The system message tells the model how to behave
-    messages = [
-        {"role": "system", "content":
-            "You are a movie review assistant. Use ONLY the evidence given. "
-            "Write exactly these four sections, using the headings shown: "
-            "'General Review', 'Critic Response', 'Audience Review', and "
-            "'Comparison of Reviews'. In General Review, give a concise "
-            "summary and overall rating out of 10. In Critic Response, "
-            "summarize critic ratings such as Rotten Tomatoes or Metacritic "
-            "when available; do not describe them as written reviews. In "
-            "Audience Review, summarize the provided TMDB audience reviews. "
-            "In Comparison of Reviews, compare the available critic and "
-            "audience evidence. Cite sources like [1], [2], [3]. If evidence "
-            "for a section is missing or sources disagree, say so."},
-        {"role": "user", "content":
-            f"Evidence:\n{build_evidence(movie)}\n\nQuestion: {question}"},
-    ]
+    evidence = build_evidence(movie)
+    prompts = build_prompts(question, evidence)
+    candidate_a = {
+        key: generate_completion(prompt, sample=False)
+        for key, prompt in prompts.items()
+    }
+    preferences = {key: "a" for key in prompts}
+    return assemble_response(candidate_a, candidate_a, preferences)
 
-    # Step 3 (Generate): format the chat, run the model, decode the reply
-    prompt = tokenizer.apply_chat_template(messages, tokenize=False,
-                                           add_generation_prompt=True)
-    inputs = tokenizer(prompt, return_tensors="pt")
-    output = model.generate(**inputs, max_new_tokens=300, do_sample=False)
-    # Keep only the newly generated tokens, not the prompt we sent in
-    new_tokens = output[0][inputs["input_ids"].shape[1]:]
-    return tokenizer.decode(new_tokens, skip_special_tokens=True)
 
 if __name__ == "__main__":
     movies = load_movies()
     while True:
-        q = input("\nMovie title (or 'quit'): ")
-        if q.lower() == "quit":
+        question = input("\nMovie title (or 'quit'): ")
+        if question.lower() == "quit":
             break
-        answer = llm_review(q, movies)
+
+        movie = find_movie(question, movies)
+        if movie is None:
+            print("I couldn't find that movie in my data.")
+            continue
+
+        evidence, prompts, candidate_a, candidate_b = generate_candidates(
+            question, movie
+        )
+        preferences = collect_section_preferences(candidate_a, candidate_b)
+        answer = assemble_response(candidate_a, candidate_b, preferences)
+        print("\nSelected response:\n")
         print(answer)
-        # Step 4: collect section-level feedback for later review
-        section_feedback = collect_section_feedback()
-        save_feedback("feedback_llm.jsonl", q, answer, section_feedback)
+        save_comparison(
+            COMPARISONS_FILE,
+            question,
+            f"{movie['title']} ({movie['year']})",
+            evidence,
+            prompts,
+            candidate_a,
+            candidate_b,
+            preferences,
+            active_model_name,
+        )
