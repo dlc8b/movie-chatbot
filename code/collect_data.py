@@ -1,9 +1,18 @@
 # collect_data.py
 # Gathers movie info from 3 legal APIs and saves it to movies.json
-import requests   # lets Python talk to web APIs
 import json       # lets us save data to a file
 import datetime   # lets us stamp the collection date
 import os         # lets us access environment variables
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+
+
+def get_json(url, params, headers=None):
+    """Fetch and decode a JSON response using Python's standard library."""
+    url = f"{url}?{urlencode(params)}"
+    request = Request(url, headers=headers or {})
+    with urlopen(request, timeout=30) as response:
+        return json.load(response)
 
 #create an .env file with your API keys
 OMDB_KEY = os.getenv("OMDB_KEY")
@@ -16,7 +25,7 @@ TITLES = ["Inception", "The Godfather", "Barbie", "Cats", "Parasite",
 def get_omdb(title):
     # OMDb returns IMDb rating, Rotten Tomatoes %, Metacritic, plot
     params = {"t": title, "apikey": OMDB_KEY}
-    return requests.get("https://www.omdbapi.com/", params=params).json()
+    return get_json("https://www.omdbapi.com/", params)
 
 def get_wikipedia(title, year):
     # Search Wikipedia for the film's page and grab its intro text
@@ -25,8 +34,7 @@ def get_wikipedia(title, year):
               "prop": "extracts", "exintro": 1, "explaintext": 1,
               "format": "json"}
     headers = {"User-Agent": "MovieReviewClassProject/0.1"}  # Wikipedia asks for this
-    data = requests.get("https://en.wikipedia.org/w/api.php",
-                        params=params, headers=headers).json()
+    data = get_json("https://en.wikipedia.org/w/api.php", params, headers)
     pages = data.get("query", {}).get("pages", {})
     for page_id, page in pages.items():
         return {"text": page.get("extract", ""),
@@ -36,14 +44,13 @@ def get_wikipedia(title, year):
 def get_tmdb_reviews(title, year):
     # Step 1: find the movie's TMDB id
     params = {"api_key": TMDB_KEY, "query": title, "year": year}
-    found = requests.get("https://api.themoviedb.org/3/search/movie",
-                         params=params).json()
+    found = get_json("https://api.themoviedb.org/3/search/movie", params)
     if not found.get("results"):
         return {"reviews": [], "url": ""}
     movie_id = found["results"][0]["id"]
     # Step 2: fetch audience reviews (we drop usernames to avoid personal info)
     url = f"https://api.themoviedb.org/3/movie/{movie_id}/reviews"
-    rev = requests.get(url, params={"api_key": TMDB_KEY}).json()
+    rev = get_json(url, {"api_key": TMDB_KEY})
     reviews = [{"text": r["content"][:500]} for r in rev.get("results", [])[:5]]
     return {"reviews": reviews,
             "url": f"https://www.themoviedb.org/movie/{movie_id}"}

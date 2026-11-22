@@ -52,7 +52,8 @@ The planned system follows this workflow:
 1. **User Input:** The user enters a movie title.
 2. **Data Collection:** The system retrieves relevant movie information and reviews from available sources.
 3. **Review Generation:** A language model uses the retrieved information to produce a summary, analysis, comparison of viewpoints, and overall rating.
-4. **User Feedback:** The user can rate the response positively or negatively.
+4. **User Feedback:** The user can rate the general review, critic response,
+   audience review, and comparison of reviews separately.
 5. **Model Improvement:** Reviewed feedback examples may be used to improve future responses through Direct Preference Optimization (DPO).
 
 The chatbot will also consider relevant conversation context, such as whether a requested movie belongs to a series. Responses will include source links. If the available evidence is insufficient or sources disagree, the chatbot should communicate that limitation rather than make unsupported claims.
