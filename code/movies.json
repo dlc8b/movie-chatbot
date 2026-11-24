@@ -695,5 +695,858 @@
       "url": "https://www.themoviedb.org/movie/808"
     },
     "collected": "2026-11-19"
+  },
+
+  {
+    "title": "The Dark Knight",
+    "year": "2008",
+    "omdb": {
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "Rated": "PG-13",
+      "Released": "18 Jul 2008",
+      "Runtime": "152 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan",
+      "Actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "Plot": "Batman teams up with the police and a new district attorney to take down Gotham's organized crime, but a chaos-loving criminal known as the Joker pushes all of them past their limits.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 2 Oscars. 160 wins & 160 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "9.0",
+      "imdbVotes": "2,900,000",
+      "imdbID": "tt0468569",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$534,987,076",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0468569/",
+    "wikipedia": {
+      "text": "A 2008 superhero crime film directed by Christopher Nolan and the second entry in his Batman trilogy. Heath Ledger's performance as the Joker drew particular praise and won a posthumous Oscar. It was a major commercial success and is often cited as a high point of the genre.",
+      "url": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Dark, tense, and relentlessly clever. Ledger steals every scene he is in, but the whole film holds together."
+        },
+        {
+          "text": "A crime epic that happens to feature a man in a cape. The interrogation scene alone is worth the runtime."
+        },
+        {
+          "text": "Overlong in places and the sound mix is muddy, but I still think about it years later."
+        },
+        {
+          "text": "Best superhero movie ever made, no contest."
+        },
+        {
+          "text": "Loved it. Bale's gravelly voice is a bit much though."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "omdb": {
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "154 min",
+      "Genre": "Crime, Drama",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "Plot": "The lives of two hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in several tales of violence and redemption.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 70 wins & 75 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "8.9",
+      "imdbVotes": "2,250,000",
+      "imdbID": "tt0110912",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$107,928,762",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0110912/",
+    "wikipedia": {
+      "text": "A 1994 American neo-noir crime film written and directed by Quentin Tarantino. Told out of chronological order across interlinked stories, it won the Palme d'Or and became hugely influential on independent cinema of the 1990s.",
+      "url": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Razor-sharp dialogue and a structure that rewards rewatching. Still feels fresh."
+        },
+        {
+          "text": "Style over substance, but what style."
+        },
+        {
+          "text": "Every scene is quotable. The dance contest is pure joy."
+        },
+        {
+          "text": "Too violent for my taste, though I admit the craft is undeniable."
+        },
+        {
+          "text": "A masterpiece of 90s cool."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "omdb": {
+      "Title": "The Shawshank Redemption",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "23 Sep 1994",
+      "Runtime": "142 min",
+      "Genre": "Drama",
+      "Director": "Frank Darabont",
+      "Writer": "Stephen King, Frank Darabont",
+      "Actors": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "Plot": "A banker convicted of murdering his wife builds an unlikely friendship with a fellow inmate while quietly planning his path to freedom.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 7 Oscars. 21 wins & 43 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "9.3",
+      "imdbVotes": "3,100,000",
+      "imdbID": "tt0111161",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$28,767,189",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0111161/",
+    "wikipedia": {
+      "text": "A 1994 prison drama written and directed by Frank Darabont, adapted from a Stephen King novella. A modest box office performer on release, it found a huge audience through home video and television and now tops many audience-voted lists.",
+      "url": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Patient, humane storytelling with a payoff that earns every tear."
+        },
+        {
+          "text": "Morgan Freeman's narration alone makes this essential."
+        },
+        {
+          "text": "Slow start, but stick with it. One of the most hopeful films ever made."
+        },
+        {
+          "text": "Good, but I don't understand why it ranks above everything else."
+        },
+        {
+          "text": "Perfect."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Avatar",
+    "year": "2009",
+    "omdb": {
+      "Title": "Avatar",
+      "Year": "2009",
+      "Rated": "PG-13",
+      "Released": "18 Dec 2009",
+      "Runtime": "162 min",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "James Cameron",
+      "Writer": "James Cameron",
+      "Actors": "Sam Worthington, Zoe Saldana, Sigourney Weaver",
+      "Plot": "A paraplegic Marine sent to the moon Pandora on a unique mission becomes torn between following orders and protecting the world he feels is his home.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 3 Oscars. 91 wins & 131 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "82%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "83/100"
+        }
+      ],
+      "Metascore": "83",
+      "imdbRating": "7.9",
+      "imdbVotes": "1,450,000",
+      "imdbID": "tt0499549",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$785,221,649",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0499549/",
+    "wikipedia": {
+      "text": "A 2009 science fiction film directed by James Cameron, set on the moon Pandora. It pioneered new 3D and performance capture techniques and became the highest-grossing film of all time on its original release run.",
+      "url": "https://en.wikipedia.org/wiki/Avatar"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Visually staggering. The story is familiar, but the world is the star."
+        },
+        {
+          "text": "Seen in IMAX 3D and it felt like a new era of cinema."
+        },
+        {
+          "text": "Pocahontas in space with great graphics. Beautiful but hollow."
+        },
+        {
+          "text": "The plot is predictable and the dialogue clunky, yet I was completely absorbed."
+        },
+        {
+          "text": "Worth it for Pandora alone."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Twilight",
+    "year": "2008",
+    "omdb": {
+      "Title": "Twilight",
+      "Year": "2008",
+      "Rated": "PG-13",
+      "Released": "21 Nov 2008",
+      "Runtime": "122 min",
+      "Genre": "Drama, Fantasy, Romance",
+      "Director": "Catherine Hardwicke",
+      "Writer": "Melissa Rosenberg, Stephenie Meyer",
+      "Actors": "Kristen Stewart, Robert Pattinson, Billy Burke",
+      "Plot": "A teenage girl moves to a rainy small town and falls for a mysterious classmate who turns out to be a vampire.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "18 wins & 32 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "49%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "56/100"
+        }
+      ],
+      "Metascore": "56",
+      "imdbRating": "5.3",
+      "imdbVotes": "590,000",
+      "imdbID": "tt1099212",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$192,769,854",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt1099212/",
+    "wikipedia": {
+      "text": "A 2008 romantic fantasy film based on Stephenie Meyer's novel and the first of five films in the Twilight Saga. Critics were divided, but it was a commercial hit with a devoted young audience.",
+      "url": "https://en.wikipedia.org/wiki/Twilight"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Angsty, earnest, and surprisingly atmospheric. A guilty pleasure."
+        },
+        {
+          "text": "The dialogue is painful and the pacing drags."
+        },
+        {
+          "text": "I read the book first and the film captures the mood well."
+        },
+        {
+          "text": "So much brooding. I laughed in all the wrong places."
+        },
+        {
+          "text": "Team Edward forever!"
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Transformers: Revenge of the Fallen",
+    "year": "2009",
+    "omdb": {
+      "Title": "Transformers: Revenge of the Fallen",
+      "Year": "2009",
+      "Rated": "PG-13",
+      "Released": "24 Jun 2009",
+      "Runtime": "149 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Michael Bay",
+      "Writer": "Ehren Kruger, Roberto Orci, Alex Kurtzman",
+      "Actors": "Shia LaBeouf, Megan Fox, Josh Duhamel",
+      "Plot": "A teenager is drawn back into the war between Autobots and Decepticons as an ancient enemy returns to destroy the Sun.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 2 Oscars. 8 wins & 20 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "20%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "35/100"
+        }
+      ],
+      "Metascore": "35",
+      "imdbRating": "6.0",
+      "imdbVotes": "420,000",
+      "imdbID": "tt1055369",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$402,111,870",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt1055369/",
+    "wikipedia": {
+      "text": "A 2009 science fiction action film directed by Michael Bay and the second in the Transformers series. It was a huge box office success despite being widely criticized for its plot and humor.",
+      "url": "https://en.wikipedia.org/wiki/Transformers:_Revenge_of_the_Fallen"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Loud, incoherent, and far too long. Some robot fights are fun though."
+        },
+        {
+          "text": "Explosions and nothing else. I wanted my two and a half hours back."
+        },
+        {
+          "text": "Turn your brain off and it's passable popcorn fare."
+        },
+        {
+          "text": "The first one was better in every way."
+        },
+        {
+          "text": "Visual effects are impressive; everything else is a mess."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Gigli",
+    "year": "2003",
+    "omdb": {
+      "Title": "Gigli",
+      "Year": "2003",
+      "Rated": "R",
+      "Released": "01 Aug 2003",
+      "Runtime": "121 min",
+      "Genre": "Comedy, Crime, Romance",
+      "Director": "Martin Brest",
+      "Writer": "Martin Brest",
+      "Actors": "Ben Affleck, Jennifer Lopez, Justin Bartha",
+      "Plot": "A low-level mobster is ordered to kidnap a prosecutor's brother, but a fellow operative sent to oversee him complicates the job.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 5 Razzies. 6 wins & 5 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "2.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "6%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "18/100"
+        }
+      ],
+      "Metascore": "18",
+      "imdbRating": "2.5",
+      "imdbVotes": "75,000",
+      "imdbID": "tt0299117",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$7,266,209",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0299117/",
+    "wikipedia": {
+      "text": "A 2003 romantic crime comedy directed by Martin Brest. It was a notorious critical and commercial failure, sweeping the Razzie Awards and becoming a byword for Hollywood misfires.",
+      "url": "https://en.wikipedia.org/wiki/Gigli"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Tonally all over the place. I cannot tell what this movie wants to be."
+        },
+        {
+          "text": "Not as catastrophically bad as its reputation, but close."
+        },
+        {
+          "text": "The leads have no chemistry despite everything else."
+        },
+        {
+          "text": "Unwatchable. Turned it off after an hour."
+        },
+        {
+          "text": "So bad it's almost fascinating."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "1994",
+    "omdb": {
+      "Title": "Forrest Gump",
+      "Year": "1994",
+      "Rated": "PG-13",
+      "Released": "06 Jul 1994",
+      "Runtime": "142 min",
+      "Genre": "Drama, Romance",
+      "Director": "Robert Zemeckis",
+      "Writer": "Eric Roth, Winston Groom",
+      "Actors": "Tom Hanks, Robin Wright, Gary Sinise",
+      "Plot": "Across several decades, a kind-hearted man with a low IQ unwittingly takes part in defining moments of American history while pining for his childhood love.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 6 Oscars. 50 wins & 75 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "71%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,450,000",
+      "imdbID": "tt0109830",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$330,455,270",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt0109830/",
+    "wikipedia": {
+      "text": "A 1994 comedy-drama directed by Robert Zemeckis, based on Winston Groom's novel. It won six Academy Awards including Best Picture and was one of the biggest hits of its year.",
+      "url": "https://en.wikipedia.org/wiki/Forrest_Gump"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Hanks is wonderful. Sentimental, yes, but it works on me every time."
+        },
+        {
+          "text": "Cleverly weaves history into one man's story, though some of the politics feel simplistic."
+        },
+        {
+          "text": "Jenny is a frustrating character, but the film is warm-hearted."
+        },
+        {
+          "text": "Overrated. Syrupy and manipulative."
+        },
+        {
+          "text": "Life is like a box of chocolates, and this one is sweet."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Get Out",
+    "year": "2017",
+    "omdb": {
+      "Title": "Get Out",
+      "Year": "2017",
+      "Rated": "R",
+      "Released": "24 Feb 2017",
+      "Runtime": "104 min",
+      "Genre": "Horror, Mystery, Thriller",
+      "Director": "Jordan Peele",
+      "Writer": "Jordan Peele",
+      "Actors": "Daniel Kaluuya, Allison Williams, Bradley Whitford",
+      "Plot": "A young Black photographer visits his white girlfriend's family estate and slowly uncovers a disturbing secret behind their friendliness.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 152 wins & 237 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "85/100"
+        }
+      ],
+      "Metascore": "85",
+      "imdbRating": "7.8",
+      "imdbVotes": "670,000",
+      "imdbID": "tt5052448",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$176,040,665",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt5052448/",
+    "wikipedia": {
+      "text": "A 2017 horror thriller written and directed by Jordan Peele in his directorial debut. Blending social satire with suspense, it earned widespread acclaim and won the Oscar for Best Original Screenplay.",
+      "url": "https://en.wikipedia.org/wiki/Get_Out"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Smart, funny, and genuinely unsettling. A debut that announced a major voice."
+        },
+        {
+          "text": "The social commentary is sharp and never preachy."
+        },
+        {
+          "text": "The third act turns conventional, but the first two are brilliant."
+        },
+        {
+          "text": "Not scary enough for me, though I admire the ideas."
+        },
+        {
+          "text": "Kaluuya's face in the sunken place is unforgettable."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": "2015",
+    "omdb": {
+      "Title": "Mad Max: Fury Road",
+      "Year": "2015",
+      "Rated": "R",
+      "Released": "15 May 2015",
+      "Runtime": "120 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "George Miller",
+      "Writer": "George Miller, Brendan McCarthy, Nick Lathouris",
+      "Actors": "Tom Hardy, Charlize Theron, Nicholas Hoult",
+      "Plot": "In a desert wasteland, a drifter and a rebel warrior join forces to flee a tyrant and his army across a perilous landscape.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 6 Oscars. 235 wins & 265 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "8.1",
+      "imdbVotes": "1,100,000",
+      "imdbID": "tt1392190",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$154,058,340",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt1392190/",
+    "wikipedia": {
+      "text": "A 2015 post-apocalyptic action film directed by George Miller, the fourth in the Mad Max series. Praised for its practical stunt work and relentless pacing, it won six Academy Awards.",
+      "url": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Two hours of pure kinetic filmmaking. Practical effects make it feel dangerous."
+        },
+        {
+          "text": "Furiosa is the real hero and Theron is magnetic."
+        },
+        {
+          "text": "Thin plot, but the point is the spectacle, and the spectacle is unmatched."
+        },
+        {
+          "text": "Too loud and too frantic for me."
+        },
+        {
+          "text": "A chase movie that becomes art."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "Frozen",
+    "year": "2013",
+    "omdb": {
+      "Title": "Frozen",
+      "Year": "2013",
+      "Rated": "PG",
+      "Released": "27 Nov 2013",
+      "Runtime": "102 min",
+      "Genre": "Animation, Adventure, Comedy",
+      "Director": "Chris Buck, Jennifer Lee",
+      "Writer": "Jennifer Lee, Hans Christian Andersen, Chris Buck",
+      "Actors": "Kristen Bell, Idina Menzel, Jonathan Groff",
+      "Plot": "When a queen with icy powers accidentally traps her kingdom in eternal winter, her fearless sister sets out to find her and end the curse.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 2 Oscars. 82 wins & 60 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "75/100"
+        }
+      ],
+      "Metascore": "75",
+      "imdbRating": "7.4",
+      "imdbVotes": "660,000",
+      "imdbID": "tt2294629",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$400,738,009",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt2294629/",
+    "wikipedia": {
+      "text": "A 2013 Disney animated musical loosely inspired by Hans Christian Andersen's The Snow Queen. A sibling story at its heart, it became a global phenomenon driven by its songs and won the Oscar for Best Animated Feature.",
+      "url": "https://en.wikipedia.org/wiki/Frozen"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "Gorgeous animation and a refreshingly sibling-focused story. The songs are catchy."
+        },
+        {
+          "text": "My kids watched it fifty times and I did not mind."
+        },
+        {
+          "text": "Good, but the twist with Hans is easy to see coming."
+        },
+        {
+          "text": "Overhyped. The music is great, the rest is fine."
+        },
+        {
+          "text": "A modern Disney classic."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
+  },
+  {
+    "title": "The Emoji Movie",
+    "year": "2017",
+    "omdb": {
+      "Title": "The Emoji Movie",
+      "Year": "2017",
+      "Rated": "PG",
+      "Released": "28 Jul 2017",
+      "Runtime": "86 min",
+      "Genre": "Animation, Adventure, Comedy",
+      "Director": "Tony Leondis",
+      "Writer": "Tony Leondis, Eric Siegel, Mike White",
+      "Actors": "T.J. Miller, James Corden, Anna Faris",
+      "Plot": "An emoji who cannot control his facial expression goes on a quest through a smartphone to become normal.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 3 Razzies. 3 wins & 7 nominations total",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "3.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "8%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "12/100"
+        }
+      ],
+      "Metascore": "12",
+      "imdbRating": "3.3",
+      "imdbVotes": "95,000",
+      "imdbID": "tt4877122",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$86,089,513",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    "imdb_url": "https://www.imdb.com/title/tt4877122/",
+    "wikipedia": {
+      "text": "A 2017 animated comedy set inside a smartphone. Critics widely panned it as a shallow exercise in product placement, though it earned a respectable box office total.",
+      "url": "https://en.wikipedia.org/wiki/The_Emoji_Movie"
+    },
+    "tmdb": {
+      "reviews": [
+        {
+          "text": "An ad pretending to be a movie. Painful."
+        },
+        {
+          "text": "My seven-year-old enjoyed it, which is the only good thing I can say."
+        },
+        {
+          "text": "Zero creativity. The app-world concept had potential and wasted it."
+        },
+        {
+          "text": "So bad it made me sad."
+        },
+        {
+          "text": "Not for anyone over ten."
+        }
+      ],
+      "url": null
+    },
+    "collected": "2026-11-24",
+    "synthetic": true
   }
 ]
