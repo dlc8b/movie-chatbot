@@ -89,7 +89,16 @@ from the [official PyTorch instructions](https://pytorch.org/get-started/locally
 then install the DPO dependencies:
 
 ```powershell
+py -m pip install --upgrade --force-reinstall torch --index-url https://download.pytorch.org/whl/cu126
 py -m pip install -r requirements-dpo.txt
+```
+
+The CUDA 12.6 wheel command above was verified with Python 3.15 and an RTX 3060.
+If you use a different Python version or GPU, choose a compatible command in
+the official PyTorch selector. Verify the install before training:
+
+```powershell
+py -c "import torch; print(torch.__version__, torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'No CUDA device')"
 ```
 
 From the `code` directory:

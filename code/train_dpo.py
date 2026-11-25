@@ -91,11 +91,10 @@ def train(args):
         beta=0.1,
         logging_steps=1,
         save_strategy="epoch",
-        gradient_checkpointing=True,
+        activation_checkpointing=True,
         bf16=supports_bf16,
         fp16=not supports_bf16,
         max_length=args.max_length,
-        max_prompt_length=args.max_prompt_length,
         report_to="none",
     )
     peft_config = LoraConfig(
@@ -144,7 +143,6 @@ def main():
     parser.add_argument("--epochs", type=float, default=1.0)
     parser.add_argument("--min-pairs", type=int, default=20)
     parser.add_argument("--max-length", type=int, default=1024)
-    parser.add_argument("--max-prompt-length", type=int, default=768)
     parser.add_argument(
         "--allow-small-dataset",
         action="store_true",
