@@ -3,6 +3,9 @@ import importlib
 import os
 from pathlib import Path
 
+if os.name == "nt":
+    os.environ.setdefault("HF_DEACTIVATE_ASYNC_LOAD", "1")
+
 try:
     _transformers = importlib.import_module("transformers")
 except ModuleNotFoundError as exc:

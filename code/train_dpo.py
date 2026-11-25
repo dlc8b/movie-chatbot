@@ -1,6 +1,11 @@
 import argparse
 import json
+import os
 from pathlib import Path
+
+
+if os.name == "nt":
+    os.environ.setdefault("HF_DEACTIVATE_ASYNC_LOAD", "1")
 
 
 MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
@@ -47,6 +52,10 @@ def train(args):
             "reviewed pairs before training, or pass --allow-small-dataset "
             "for an experimental run."
         )
+    print(
+        f"Loaded {len(records)} preference pairs from {args.dataset}",
+        flush=True,
+    )
 
     try:
         import torch  # type: ignore[import-not-found]
@@ -63,6 +72,7 @@ def train(args):
             "CUDA is not available. DPO training requires a CUDA-enabled "
             "PyTorch install and a compatible NVIDIA GPU for this setup."
         )
+    print(f"Using CUDA device: {torch.cuda.get_device_name(0)}", flush=True)
 
     try:
         from datasets import Dataset  # type: ignore[import-not-found]
@@ -78,6 +88,7 @@ def train(args):
 
     supports_bf16 = torch.cuda.is_bf16_supported()
     dtype = torch.bfloat16 if supports_bf16 else torch.float16
+    print(f"Loading tokenizer for {MODEL_NAME}...", flush=True)
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     dataset = Dataset.from_list(records)
 
@@ -112,6 +123,11 @@ def train(args):
         ],
         task_type="CAUSAL_LM",
     )
+    print(
+        "Loading the base model and initializing the DPO trainer. "
+        "The first run may download several gigabytes.",
+        flush=True,
+    )
     trainer = DPOTrainer(
         model=MODEL_NAME,
         args=training_args,
@@ -119,7 +135,13 @@ def train(args):
         processing_class=tokenizer,
         peft_config=peft_config,
     )
-    trainer.train()
+    print(f"Starting DPO training for {args.epochs} epoch(s)...", flush=True)
+    train_result = trainer.train()
+    print(
+        f"Training complete. Metrics: {json.dumps(train_result.metrics, sort_keys=True)}",
+        flush=True,
+    )
+    print(f"Saving adapter to {args.output_dir}...", flush=True)
     trainer.save_model(args.output_dir)
     tokenizer.save_pretrained(args.output_dir)
     print(f"Saved DPO adapter to {args.output_dir}")
